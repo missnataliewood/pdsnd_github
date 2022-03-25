@@ -15,6 +15,8 @@ washington.csv
 new_york_city.csv
 chicago.csv
 
+
 ### Credits
 Udacity!
+CSV files supplied by udacity
 
