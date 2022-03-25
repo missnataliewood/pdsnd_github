@@ -246,7 +246,7 @@ def display_raw_data(df):
             raw = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
 
 
-
+#Runs all the definitions 
 def main():
     while True:
         city, month, day = get_filters()
