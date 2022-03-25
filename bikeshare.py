@@ -190,6 +190,7 @@ def user_stats(df):
         cust = df[df['User Type'] == "Customer"]
         cust_index = cust.index
         cust_ct = len(cust_index)
+    # Add error code
     except KeyError:
         cust_ct = 'No Data Available'
     
