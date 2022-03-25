@@ -4,7 +4,7 @@
 24MAR2022
 
 ### Project Title
-Bike Project Python
+Exploring Bike Data with Python
 
 ### Description
 In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.  Additionally, there is a script that takes in raw input to create an interactive experience in the terminal to present these statistics
