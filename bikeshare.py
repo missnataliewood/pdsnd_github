@@ -50,15 +50,14 @@ def get_filters():
     day = str(input("Input the day of the week you would like to learn about :)"))
     day_options = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday', 'all']
     day = day.lower()
-    day_index = 0
-    while day_index < 1:
+    while True:
         if day not in day_options:
             day = str(input("Please try again: "))
         else:
-            day_index = day_index + 1
+            print('-'*40)
+            return city, month, day
 
-    print('-'*40)
-    return city, month, day
+    
 
 
 
