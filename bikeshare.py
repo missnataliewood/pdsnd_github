@@ -38,13 +38,12 @@ def get_filters():
     month_index = 0
     
    #if a month unaviable data let user know, if not a month let user know
-    while month_index < 1:
+    while True:
         if month in not_months:
              month = str(input("Please try again. There is no available data for selected month (Available data: january, february, march, april, may, june) ) : "))
         if month not in month_options:
             month = str(input("Please try again: "))          
-        else:
-            month_index = month_index + 1
+        
 
     # Ask user for day of week, if not in list, ask again
     day = str(input("Input the day of the week you would like to learn about :)"))
